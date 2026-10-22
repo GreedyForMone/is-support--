@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Физическая защита серверной</title>
+</head>
+<body>
+
+    <!-- 1. Заголовок страницы -->
+    <h1>Модель физической защиты серверной комнаты</h1>
+
+    <!-- 2. Изображение схемы (убедитесь, что имя файла совпадает с загруженным) -->
+    <img src="server-room-scheme.png" alt="Схема физической защиты серверной комнаты" width="600">
+
+    <!-- 3. Маркированный список элементов защиты -->
+    <h3>Расшифровка элементов схемы:</h3>
+    <ul>
+        
+    </ul>
+
+    <!-- 4. Пояснение о важности режимов защиты -->
+    <h3></h3>
+    
+    </p>
+    <!DOCTYPE html>
+<html lang="ru">
+<head>
+    </footer>
+</div>
+
+</body><!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Схема физической защиты серверной комнаты</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --border-color: #334155;
+            --success: #34d399;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--accent);
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+
+        .meta-panel {
+            background-color: var(--card-bg);
+            padding: 12px 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--success);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .meta-panel strong {
+            color: var(--text-main);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .card:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .card h2 {
+            color: var(--accent);
+            margin-top: 0;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+        }
+
+        .card p {
+            margin: 12px 0 0 0;
+            color: #e2e8f0;
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Схема физической защиты серверной комнаты</h1>
+        <div class="meta-panel">
+            <div><strong>Статус:</strong> Действует</div>
+            <div><strong>Версия:</strong> 1.0</div>
+            <div><strong>Ответственный:</strong> Техник по сопровождению ИС</div>
+            <div><strong>Класс защиты:</strong> Высокий (Tier III стандарт)</div>
+        </div>
+    </header>
+
+    <main class="grid">
+        <!-- Блок 1 -->
+        <div class="card">
+            <h2>Пожарная безопасность</h2>
+            <p>Датчик дыма и система пожаротушения расположены на потолке прямо над серверными стойками</p>
+        </div>
+
+        <!-- Блок 2 -->
+        <div class="card">
+            <h2>Климат-контроль</h2>
+            <p>Промышленные кондиционеры установлены на стене справа</p>
+        </div>
+
+        <!-- Блок 3 -->
+        <div class="card">
+            <h2>Контроль доступа (СКУД)</h2>
+            <p>Электронный замок с биометрическим сканером (СКУД) смонтирован на входной двери</p>
+        </div>
+
+        <!-- Блок 4 -->
+        <div class="card">
+            <h2>Видеонаблюдение</h2>
+            <p>Камера видеонаблюдения закреплена в верхнем углу напротив входа</p>
+        </div>
+
+        <!-- Блок 5 -->
+        <div class="card">
+            <h2>Электропитание</h2>
+            <p>Модуль ИБП (источник бесперебойного питания) размещен внизу первой стойки для стабилизации электропитания</p>
+        </div>
+        <p>
+            Поддержание строгой климатической нормы и надежная противопожарная защита критически важны для серверной комнаты. 
+            Серверное оборудование выделяет огромное количество тепла; без постоянного охлаждения кондиционерами процессоры и 
+            накопители быстро перегреются, что приведет к сбоям, потере данных или аппаратному выходу техники из строя. 
+            В свою очередь, своевременное обнаружение задымления и автоматическое пожаротушение (специальным газом, безопасным для электроники) 
+            позволяют предотвратить катастрофические последствия возгорания, защищая как дорогостоящие материальные активы компании, 
+            так и непрерывность всех её цифровых бизнес-процессов.
+    </main>
+
+    <footer>
+        <p>© 2026 Служба сопровождения информационных систем. Документ является конфиденциальным.</p>
+    </footer>
+</div>
+
+</body>
+</html>
+
+</html>
+
+
+</body>
+</html>
